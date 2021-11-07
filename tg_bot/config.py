@@ -24,4 +24,4 @@ class Development(Config):
     STRICT_GBAN = True
     WORKERS = 8
     BAN_STICKER = "CAADBAAD6AMAAkJ_EQNu_RjOszbmnxY"
-    ALLOW_EXCL = True
+    ALLOW_EXCL = "True"
