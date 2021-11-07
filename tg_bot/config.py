@@ -11,13 +11,13 @@ class Development(Config):
     SQLALCHEMY_DATABASE_URI = 'postgres://buprojwbmxkmcm:fba203f997f6c8103bb1163cc21f92567bf8e61229b3655102229a700cdfcd25@ec2-54-211-159-145.compute-1.amazonaws.com:5432/d14o2otfak99ke'  # sample db credentials
     MESSAGE_DUMP = '-1007777777777' # some group chat that your bot is a member of
     USE_MESSAGE_DUMP = True
-    SUDO_USERS = [18673980 83489514]  # List of id's for users which have sudo access to the bot.
+    SUDO_USERS = [18673980]  # List of id's for users which have sudo access to the bot.
     LOAD = []
     NO_LOAD = ['translation']
     WEBHOOK = "ANYTHING"
     URL = "https://prueba1989bot.herokuapp.com/"
-    SUPPORT_USERS = 254318997 683538773 570400686 466337795
-    WHITELIST_USERS = 254318997 683538773 570400686 466337795
+    SUPPORT_USERS = 254318997
+    WHITELIST_USERS = 254318997
     DONATION_LINK = "https://www.paypal.me/Your_id_here"
     PORT = 8443
     DEL_CMDS = True
