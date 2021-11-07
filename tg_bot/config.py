@@ -10,7 +10,7 @@ class Development(Config):
     OWNER_USERNAME = "luisx_garcia"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'postgres://bnbwczffbraxvq:59952a8f46a223204c4733e3fda4533a630714ead91166ea17dd4ee8b30c0'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgres://bnbwczffbraxvq:59952a8f46a223204c4733e3fda4533a630714ead91166ea17dd4ee8b30c040e@ec2-54-211-159-145.compute-1.amazonaws.com:5432/dchs2a888akfmv'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     LOAD = []
     # sed has been disabled after the discovery that certain long-running sed commands maxed out cpu usage
@@ -25,7 +25,7 @@ class Development(Config):
     WHITELIST_USERS = []  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     DONATION_LINK = None  # EG, paypal
     CERT_PATH = None
-    PORT = 8443
+    PORT = 5000
     DEL_CMDS = False  # Whether or not you should delete "blue text must click" commands
     STRICT_GBAN = False
     WORKERS = 8  # Number of subthreads to use. This is the recommended amount - see for yourself what works best!
