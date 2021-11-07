@@ -3,8 +3,6 @@ from tg_bot.sample_config import Config
 
 
 class Development(Config):
-    ENV = "ANYTHING"
-    TOKEN = "2136337423:AAHVTeCTKr0dnZrI93LFFB0FC8aVk9W2xW0"
     OWNER_ID = 998104621  # my telegram ID
     OWNER_USERNAME = "luisx_garcia"  # my telegram username
     API_KEY = "2136337423:AAHVTeCTKr0dnZrI93LFFB0FC8aVk9W2xW0"  # my api key, as provided by the botfather
@@ -14,14 +12,3 @@ class Development(Config):
     SUDO_USERS = [18673980]  # List of id's for users which have sudo access to the bot.
     LOAD = []
     NO_LOAD = ['translation']
-    WEBHOOK = "ANYTHING"
-    URL = "https://prueba1989bot.herokuapp.com/"
-    SUPPORT_USERS = 254318997
-    WHITELIST_USERS = 254318997
-    DONATION_LINK = "https://www.paypal.me/Your_id_here"
-    PORT = 8443
-    DEL_CMDS = True
-    STRICT_GBAN = True
-    WORKERS = 8
-    BAN_STICKER = "CAADBAAD6AMAAkJ_EQNu_RjOszbmnxY"
-    ALLOW_EXCL = "True"
