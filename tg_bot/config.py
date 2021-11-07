@@ -10,7 +10,7 @@ class Development(Config):
     OWNER_USERNAME = "luisx_garcia"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'postgres://buprojwbmxkmcm:fba203f997f6c8103bb1163cc21f92567bf8e61229b3655102229a700cdfcd25@ec2-54-211-159-145.compute-1.amazonaws.com:5432/d14o2otfak99ke'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgres://bnbwczffbraxvq:59952a8f46a223204c4733e3fda4533a630714ead91166ea17dd4ee8b30c0'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     LOAD = []
     # sed has been disabled after the discovery that certain long-running sed commands maxed out cpu usage
