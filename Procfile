@@ -1,1 +1,1 @@
-bot: python3 -m tg_bot
+web: python3 -m tg_bot
