@@ -48,7 +48,7 @@ if ENV:
     PORT = int(os.environ.get('PORT', 5000))
     CERT_PATH = os.environ.get("CERT_PATH")
     
-    DB_URI = os.environ.get("DATABASE_URL")
+    DB_URI = "postgresql://jduhprmfbjdqmw:cea8882ee0ce4adc8502f59b62402e6ec097d4d01af5465d143af92a3ecc5160@ec2-54-145-49-132.compute-1.amazonaws.com:5432/d7po5qmddq4edc"
     DONATION_LINK = os.environ.get('DONATION_LINK')
     LOAD = os.environ.get("LOAD", "").split()
     NO_LOAD = os.environ.get("NO_LOAD", "translation").split()
